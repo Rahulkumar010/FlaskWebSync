@@ -1,0 +1,15 @@
+Flask_Bcrypt==1.0.1
+Flask_Caching==2.1.0
+Flask_Cors==4.0.0
+Flask_Limiter==3.5.1
+Flask_Login==0.6.3
+flask_sqlalchemy==3.1.1
+flask_wtf==1.2.1
+GitPython==3.1.41
+GitPython==3.1.42
+MarkupSafe==2.1.1
+pydantic==1.10.12
+pytest==7.1.2
+python-dotenv==1.0.1
+Werkzeug==3.0.1
+WTForms==3.1.2

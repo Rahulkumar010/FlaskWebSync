@@ -1,9 +1,7 @@
-from flask import Flask, render_template
-from markupsafe import escape
+from app import create_app
 import git
 
-
-app = Flask(__name__)
+app = create_app(debug=False)
 
 @app.route("/git_update", methods=['POST'])
 def git_update():
@@ -14,13 +12,5 @@ def git_update():
     origin.pull()
     return '',200
 
-@app.route("/")
-def home():
-    return "Hello World!"
-
-@app.route("/<name>")
-def hello(name):
-    return f"Hello {escape(name)}!!"
-
-if __name__=="__main__":
+if __name__ == "__main__":
     app.run()
