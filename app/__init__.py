@@ -3,7 +3,6 @@ from flask import Flask
 
 # Other modules
 import os
-import git
 
 
 def create_app(debug: bool = False):
@@ -19,15 +18,6 @@ def create_app(debug: bool = False):
         static_folder="../static",
         static_url_path="/",
     )
-
-    @app.route("/git_update", methods=['POST'])
-    def git_update():
-        repo = git.Repo('./app/sample-flask-app')
-        origin = repo.remotes.origin
-        repo.create_head('main',
-                        origin.refs.main).set_tracking_branch(origin.refs.main).checkout()
-        origin.pull()
-        return '',200
 
     # Set current_app context
     app.app_context().push()
