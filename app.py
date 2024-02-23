@@ -5,7 +5,7 @@ import git
 
 app = Flask(__name__)
 
-@app.route("/git_update")
+@app.route("/git_update", methods=['POST'])
 def git_update():
     repo = git.Repo('./sample-flask-app')
     origin = repo.remotes.origin
