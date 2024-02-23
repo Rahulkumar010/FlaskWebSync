@@ -15,7 +15,7 @@ def git_update():
     return '',200
 
 @app.route("/")
-def index():
+def home():
     return "Hello World!"
 
 @app.route("/<name>")
