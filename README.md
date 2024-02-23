@@ -16,5 +16,5 @@ path looks like "/var/www/{your web aplication domain}_wsgi.py"
 --> found here - https://www.pythonanywhere.com/user/{username}/webapps/  under WSGI configuration file
 
 7. Provide the execution permission to the bash script created above using --> chmod +x post-merge
-8. Please follow the guide here - https://help.pythonanywhere.com/pages/Virtualenvs, to install addtional dependencies with respect to WebApp.
+8. Please follow the guide here - https://help.pythonanywhere.com/pages/Virtualenvs, to install addtional dependencies with respect to WebApp and update the configuration accordingly as mentioned.
 9. Now, whenever any update in code has been commited, the Webhook triggers and updates repo in PythonAnywhere, where "post-merge" would execute to reload the Web Application, ensuring Continuous Deployment.
