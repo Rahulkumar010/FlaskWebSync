@@ -22,7 +22,7 @@ def create_app(debug: bool = False):
 
     @app.route("/git_update", methods=['POST'])
     def git_update():
-        repo = git.Repo('./sample-flask-app')
+        repo = git.Repo('./app/sample-flask-app')
         origin = repo.remotes.origin
         repo.create_head('main',
                         origin.refs.main).set_tracking_branch(origin.refs.main).checkout()
