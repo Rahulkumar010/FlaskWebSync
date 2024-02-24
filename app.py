@@ -19,7 +19,7 @@ def home():
 
 @app.route("/<name>")
 def hello(name):
-    return f"Hello {escape(name)}!!"
+    return f"Hello {escape(name)}!!, Welcome to Flask Application"
 
 if __name__=="__main__":
     app.run()
