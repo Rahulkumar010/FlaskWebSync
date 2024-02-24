@@ -1,6 +1,6 @@
 # sample-flask-app
 
-Hosting a Flask application in PythonAnywhere with Continuous Integration:
+Hosting a Flask application in PythonAnywhere with CICD Implementation using Github Actions and Webhooks:
 
 1. Create the Flask application and push it to Github, use "pipreqs ..\sample-flask-app --savepath requirements.txt" to get project requirements.
 2. Create PythonAnywhere account here - https://www.pythonanywhere.com/
