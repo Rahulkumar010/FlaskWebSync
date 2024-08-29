@@ -171,10 +171,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or feedback, please reach out to [rahul01110100@example.com](mailto:your-email@example.com).
 
----
-
-Happy coding!
-
 
 ### Notes
 
@@ -182,3 +178,7 @@ Happy coding!
 - **Add more detailed sections** if your app has additional features or complex setup steps.
 
 Feel free to tweak the structure and content to better match your project’s needs!
+
+---
+
+Happy coding!
