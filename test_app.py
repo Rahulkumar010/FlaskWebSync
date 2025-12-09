@@ -1,5 +1,8 @@
 from flask import Flask
 from markupsafe import escape
+
+import os
+os.environ["GIT_PYTHON_REFRESH"] = "quiet"
 import git
 
 app = Flask(__name__)

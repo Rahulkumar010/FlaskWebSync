@@ -1,5 +1,8 @@
 from app import create_app
 from flask import request
+
+import os
+os.environ["GIT_PYTHON_REFRESH"] = "quiet"
 import git
 
 app = create_app(debug=False)
