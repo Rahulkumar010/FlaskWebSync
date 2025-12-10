@@ -114,6 +114,14 @@ docker run --rm -p 5000:5000 flaskwebsync
 - The container serves the app on port `5000` (host) mapped to `5000` in the container.
 - See `README.Docker.md` for additional deployment and platform notes.
 
+- **Push Docker image to GCP Artifact Registry**
+
+```bash
+gcloud auth configure-docker
+docker build -t {REGION}-docker.pkg.dev/{PROJECT-ID}/{Repository-Name}/flaskwebsync:latest .
+docker push {REGION}-docker.pkg.dev/{PROJECT-ID}/{Repository-Name}/flaskwebsync:latest
+```
+
 ### Directory Structure
 
 ```
