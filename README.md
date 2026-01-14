@@ -2,6 +2,10 @@
 
 A simple and flexible starter template for building web applications with Flask. Also, demonstrates how to host a Flask application on PythonAnywhere with CI/CD implementation using GitHub Actions and Webhooks.
   
+[![Stars](https://img.shields.io/github/stars/Rahulkumar010/FlaskWebSync)](https://github.com/Rahulkumar010/FlaskWebSync)
+[![Forks](https://img.shields.io/github/forks/Rahulkumar010/FlaskWebSync)](https://github.com/Rahulkumar010/FlaskWebSync)
+[![Issues](https://img.shields.io/github/issues/Rahulkumar010/FlaskWebSync)](https://github.com/Rahulkumar010/FlaskWebSync/issues)
+
 ## Features
 
 - **Lightweight & Flexible:** Start building web applications quickly with a minimal and adaptable Flask template.
